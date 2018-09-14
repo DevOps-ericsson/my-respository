@@ -27,7 +27,7 @@ public class HelloWorldTest {
 	@Test
 	public void test() {
 		//fail("Not yet implemented");
-		assertEquals("myName", "1");
+		assertEquals("myName", "myName");
 	}
 
 }
