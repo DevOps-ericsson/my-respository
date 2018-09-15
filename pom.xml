@@ -40,7 +40,7 @@
 	<id>build-image</id>
 	<phase>package</phase>
 	<goals>
-		<goal>build</goal>
+		<goal>deploy</goal>
 	</goals>
 </execution>
       </executions>
