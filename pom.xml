@@ -22,8 +22,8 @@
       <artifactId>docker-maven-plugin</artifactId>
       <version>1.0.0</version>
       <configuration>
-        <imageName>/my-repository</imageName>
-        <baseImage>java</baseImage>
+        <imageName>mykro</imageName>
+        <baseImage>java8-jre:latest</baseImage>
         <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
         <!-- copy the service's jar file from target into the root directory of the image --> 
         <resources>
