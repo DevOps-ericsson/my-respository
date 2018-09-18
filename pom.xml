@@ -37,7 +37,7 @@
       <configuration>
         <imageName>devops-helloworld</imageName>
         <baseImage>mykro/java8-jre:latest</baseImage>
-        <entryPoint>["java", " -jar", "/${project.build.finalName}.jar"]</entryPoint>
+        <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
         <!-- copy the service's jar file from target into the root directory of the image --> 
         <resources>
            <resource>
